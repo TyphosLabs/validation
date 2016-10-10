@@ -1,13 +1,13 @@
 ﻿/* compilation of validation modules for server-side */
 
 // start with the base
-var Validation = require('@orchardcorset/validation-base')();
+var Validation = require('@typhoslabs/validation-base')();
 
 // add plugins
-require('@orchardcorset/validation-invalid')(Validation);
-require('@orchardcorset/validation-invalid-error')(Validation);
-require('@orchardcorset/validation-types')(Validation);
-require('@orchardcorset/validation-express')(Validation);
+require('@typhoslabs/validation-invalid')(Validation);
+require('@typhoslabs/validation-invalid-error')(Validation);
+require('@typhoslabs/validation-types')(Validation);
+require('@typhoslabs/validation-express')(Validation);
 
 // and export
 module.exports = Validation;
