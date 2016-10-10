@@ -1,0 +1,28 @@
+{
+  "name": "@orchardcorset/validation",
+  "version": "2.0.0",
+  "description": "Validation manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec"
+  },
+  "author": {
+    "name": "Orchard Corset"
+  },
+  "dependencies": {
+    "@orchardcorset/errors": "^4.0.1",
+    "@orchardcorset/validation-base": "0.0.1",
+    "@orchardcorset/validation-express": "0.0.1",
+    "@orchardcorset/validation-invalid": "0.0.2",
+    "@orchardcorset/validation-invalid-error": "0.0.3",
+    "@orchardcorset/validation-types": "0.0.1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}
