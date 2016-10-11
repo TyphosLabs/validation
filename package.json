@@ -1,6 +1,6 @@
 {
   "name": "@typhoslabs/validation",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Validation manager",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "name": "Orchard Corset"
   },
   "dependencies": {
-    "@typhoslabs/validation-base": "0.0.1",
+    "@typhoslabs/validation-base": "0.0.2",
     "@typhoslabs/validation-invalid": "0.0.2",
     "@typhoslabs/validation-invalid-error": "0.0.5",
     "@typhoslabs/validation-types": "0.0.1"
