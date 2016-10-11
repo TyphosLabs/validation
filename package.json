@@ -1,6 +1,6 @@
 {
   "name": "@typhoslabs/validation",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Validation manager",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "dependencies": {
     "@typhoslabs/validation-base": "0.0.2",
     "@typhoslabs/validation-invalid": "0.0.2",
-    "@typhoslabs/validation-invalid-error": "0.0.5",
+    "@typhoslabs/validation-invalid-error": "0.0.6",
     "@typhoslabs/validation-types": "0.0.1"
   },
   "license": "ISC",
